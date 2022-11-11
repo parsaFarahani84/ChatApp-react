@@ -12,7 +12,9 @@ function LogIn() {
           <input type="password" placeholder="password" />
           <button>Sign up</button>
         </form>
-        <p>Don't have an account? SignIn</p>
+        <p>
+          <Link to="/">Don't have an account? SignIn</Link>
+        </p>
       </div>
     </div>
   );

@@ -19,7 +19,10 @@ function Register() {
           </label>
           <button>Sign up</button>
         </form>
-        <p>You do have an account? Login</p>
+        <p>
+          {" "}
+          <Link to="/LogIn">You do have an account? Login</Link>
+        </p>
       </div>
     </div>
   );

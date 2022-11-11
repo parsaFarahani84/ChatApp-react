@@ -52,9 +52,14 @@
     }
 
     p {
-      color: #5d5b8d;
       font-size: 12px;
       margin-top: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #5d5b8d;
+      cursor: pointer;
     }
 
     .logoAvatar {
@@ -69,5 +74,18 @@
       font-size: 12px;
       cursor: pointer;
     }
+  }
+}
+
+.home {
+  background-color: #a7bcff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    border: 1px solid white;
+    border-radius: 10px;
   }
 }
