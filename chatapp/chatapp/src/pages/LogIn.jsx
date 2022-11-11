@@ -10,7 +10,7 @@ function LogIn() {
         <form>
           <input type="emial" placeholder="emial" />
           <input type="password" placeholder="password" />
-          <button>Sign up</button>
+          <button>Log In</button>
         </form>
         <p>
           <Link to="/">Don't have an account? SignIn</Link>
