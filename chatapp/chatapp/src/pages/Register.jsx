@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFileEarmarkImage } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function Register() {
   return (
