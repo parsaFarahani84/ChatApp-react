@@ -118,6 +118,18 @@
           height: 24px;
         }
       }
+
+      .messages {
+        background-color: #ddddf7;
+        padding: 10px;
+        height: calc(100% - 100px);
+      }
+
+      .input {
+        height: 50px;
+        background-color: white;
+        padding: 10px;
+      }
     }
 
     .navbar {

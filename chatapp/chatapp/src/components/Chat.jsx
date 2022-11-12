@@ -3,6 +3,7 @@ import { BsCameraVideoFill } from "react-icons/bs";
 import { IoPersonAddSharp } from "react-icons/io5";
 import { FiMoreHorizontal } from "react-icons/fi";
 import Messages from "./Messages";
+import Input from "./Input";
 
 function Chat() {
   return (
@@ -16,6 +17,7 @@ function Chat() {
         </div>
       </div>
       <Messages />
+      <Input />
     </div>
   );
 }

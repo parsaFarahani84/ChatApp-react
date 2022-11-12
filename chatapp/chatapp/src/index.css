@@ -8,3 +8,7 @@
 body {
   font-family: "Rubik", sans-serif;
 }
+
+.white {
+  color: white !important;
+}

@@ -17,7 +17,11 @@ function Register() {
             <BsFileEarmarkImage className="logoAvatar" />
             <span>Add an avatar</span>
           </label>
-          <button>Sign up</button>
+          <button>
+            <Link to="/home" className="white">
+              Sign up
+            </Link>
+          </button>
         </form>
         <p>
           {" "}
