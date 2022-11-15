@@ -26,6 +26,7 @@ function Register() {
         (error) => {
           setError(true);
         },
+
         () => {
           getDownloadURL(uploadTask.snapshot.ref).then(async (downloadURL) => {
             await updateProfile(res.user, {
@@ -46,6 +47,7 @@ function Register() {
       setError(true);
     }
   };
+
   return (
     <div className="formContainer">
       <div className="formWrapper">
